@@ -20,7 +20,7 @@ const CategoryPage = () => {
             Back
           </button>
           <h2 className='font-bold'>
-            Blog on <span>{category}</span>
+            Blogs on <span>{category}</span>
           </h2>
         </div>
         <Blogs />
