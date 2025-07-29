@@ -13,7 +13,7 @@ export default function Blogs() {
         </div>
       ) : posts.length === 0 ? (
         <div className="min-h-[80vh] w-full flex justify-center items-center">
-          <p className="text-center font-bold text-3xl">No BlogsFound !</p>
+          <p className="text-center font-bold text-3xl">No Blogs Found !</p>
         </div>
       ) : (
         posts.map((post) => (
